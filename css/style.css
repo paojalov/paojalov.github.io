@@ -91,11 +91,11 @@ html{
   margin: 0 auto;
 }
 h1.title-home {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 h2.sub-title-home {
-  color: white;
+  color: black;
   margin-bottom: -15px;
   font-size: 15px;
 }
