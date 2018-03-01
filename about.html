@@ -51,50 +51,26 @@
         <a href="https://www.instagram.com/pao_jalov/" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
-    
+
     <div class="canvas contact-page">
       <div class="contact-bg col-md-8 col-sm-12">
-        <img src="img/dolon.jpg" alt="" width="100%">
+        <img src="img/about1.jpg" alt="" width="100%">
       </div>
       <div class="col-md-4 col-sm-12 contact-bar">
+        <div id="map" style="width:100%;height:300px"></div>
+        <!--<div class="map">
+          https://maps.googleapis.com/maps/api/staticmap?center=Berkeley,CA&zoom=14&size=400x400&key=AIzaSyC_1RmIXxl4L2iun63cHeLhfsAAoesnp3Q
+        </div>
         <img class="map-img" src="img/map.jpg" alt="" width="100%">
-        <h3 class="interest-text text-center"> Thanks for your Interest </h3>
+        -->
+        <h3 class="interest-text text-center"> Gracias por interesarte en mi trabajo </h3>
         <br>
-        <div class="col-md-6 add-text">
-        44, Akhaliya Rd. Akhaliya
-        CA 94019. USA CO.
-        (561) 456-4567
-        </div>
-        <div class="col-md-6 add-text">
-        Summer Office Ours
-        (March-October)
-        Mon-Fri (am-6am PST)
-        </div>
-        <br>
-        <div class="col-sm-12 col-md-12">
-            <form method="post" action="contact.php">
-                <div class="controls controls-row">
-                   <div class="">
-                    <input id="name" name="name" type="text" class="form-control" placeholder="Name">
-                    </div>
-                     <div class="">
-                      <input id="email" name="email" type="email" class="col-md-6 form-control" placeholder="Email address">
-                    </div>
-                </div>
-                <div class="controls">
-                    <textarea id="message" name="message" class="col-md-12" placeholder="Your Message" rows="5"></textarea>
-                </div>
-
-                <div class="controls btn-full">
-                    <button id="contact-submit" name="submit" value="Submit" type="submit" class="btn btn-primary">Send</button>
-                </div>
-            </form>
+        <div class="col-md-8 add-text">
+        paojalov@gmail.com
+        El Cerrito, Valle del Cauca, Colombia
         </div>
       </div>
     </div>
-
-
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -102,5 +78,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="dist/js/jasny-bootstrap.min.js"></script>
+    <!-- Google Map -->
+    <script>
+      function initMap() {
+        var uluru = {lat: 3.6836997, lng: -76.3161944};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_1RmIXxl4L2iun63cHeLhfsAAoesnp3Q&callback=initMap">
+    </script>
   </body>
 </html>
