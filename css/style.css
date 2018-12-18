@@ -30,9 +30,17 @@
 /*CSS Document*/
 /* General */
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Roboto:400,700');
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light.woff2') format('woff2'),
+        url('FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 a {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     color: #2b2a2a;
     font-size: 14px;
 }
@@ -66,7 +74,7 @@ h3,
 .h3 {
     font-weight: 600;
     color: #2b2a2a;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     letter-spacing: 2px;
     margin-top: 0;
 }
@@ -78,7 +86,7 @@ h5,
 h6,
 .h6 {
     color: #2b2a2a;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     letter-spacing: 2px;
 }
 
@@ -86,7 +94,7 @@ p {
     line-height: 1.7;
     font-weight: 400;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
 }
 
 p:last-child {
@@ -94,7 +102,7 @@ p:last-child {
 }
 
 span {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
 }
 
 /*SPACING*/
@@ -319,7 +327,7 @@ input.form-control,
 }
 
 .portfolio-content h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
 }
 
 .image-wrapper:hover .hvr {
@@ -529,7 +537,7 @@ input.form-control,
     text-transform: uppercase;
     font-size: 25px;
     letter-spacing: 1px;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     display: inherit;
     line-height: inherit;
     transition: all 0, 4s ease;
@@ -578,7 +586,7 @@ input.form-control,
     min-height: 100px;
     display: flex;
     align-items: center;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
 }
 
 .site-header .primary-nav .menu-item > a {
@@ -1004,7 +1012,7 @@ input.form-control,
 
 .home-testimonial:before {
     content: "\f10d";
-    font-family: 'Fontawesome';
+    font-family: 'Futura PT';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1023,7 +1031,7 @@ input.form-control,
     position: relative;
     padding: 50px 20px 50px;
     color: #606060;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
     font-size: 16px;
     line-height: 26px;
     font-style: italic;
@@ -1066,7 +1074,7 @@ input.form-control,
 /* Revolution Slider */
 
 .main-slider .tp-fonts {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
     text-transform: uppercase;
 }
 
@@ -1148,7 +1156,7 @@ input.form-control,
 
 .instagram a:before {
     content: "\f002";
-    font-family: 'FontAwesome';
+    font-family: 'Futura PT';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1245,7 +1253,7 @@ span.link-icon {
 .isotope-filters .nav-tabs > li > a {
     padding: 0px 20px;
     margin-right: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
     line-height: 34px;
     letter-spacing: 1.7px;
     font-weight: 500;
@@ -1560,7 +1568,7 @@ input.form-control {
 .b-tags a:before {
     content: "\f3d3";
     padding-right: 10px;
-    font-family: ionicons;
+    font-family: 'Futura PT';
     font-size: 12px;
 }
 
@@ -1627,7 +1635,7 @@ input.form-control {
     color: #111111;
     font-size: 14px;
     letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura PT';
     margin-top: 29px;
     font-weight: 500;
 }
@@ -1710,7 +1718,7 @@ input.form-control {
 
 .count {
     font-size: 36px;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     font-weight: 500;
 }
 
@@ -2015,7 +2023,7 @@ h4.white {
 .custom-footer .f-social a {
     color: #707070;
     text-transform: uppercase;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Futura PT';
     font-size: 14px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
@@ -2117,7 +2125,7 @@ h4.white {
 
 #back-to-top:after {
     content: "\f106";
-    font-family: "FontAwesome";
+    font-family: 'Futura PT';
     position: relative;
 }
 
@@ -2266,7 +2274,7 @@ h4.white {
     .navbar a.dropdown-toggle:after {
         content: "\f107";
         padding-left: 5px;
-        font-family: "fontAwesome";
+        font-family: 'Futura PT';
     }
 
     .navbar ul.dropdown-menu li a {
