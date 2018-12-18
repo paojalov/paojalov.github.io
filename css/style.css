@@ -1020,7 +1020,7 @@ input.form-control,
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
-    color: rgba(0, 0, 0, 0.06);
+    color: rgba(0, 0, 0, 0);
     font-style: initial;
 }
 
@@ -1081,7 +1081,7 @@ input.form-control,
 }
 
 .main-slider .tp-bullet {
-    background: #707070;
+    background: #dacccc;
     transform: rotate(45deg);
     border: 4px solid #fff;
     -webkit-transform: rotate(45deg);
@@ -1089,7 +1089,7 @@ input.form-control,
 }
 
 .main-slider .zeus .tp-bullet:after {
-    background: #d2d2d2;
+    background: #ffe6e6e8;
 }
 
 .rev_slider {
@@ -1595,7 +1595,7 @@ input.form-control {
 }
 
 .about-img-overlay {
-    background: #222222e8;
+    background: #ffe6e6e8;
 }
 
 .about-img img {
