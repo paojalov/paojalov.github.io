@@ -8,6 +8,7 @@
     3. Color
     4. Effects
     5. Site Header
+      - Video banner
     6. Revolution Slider
     7. Projects
     8. Portfolio
@@ -471,6 +472,15 @@ input.form-control,
 }
 
 /*Site Header*/
+
+.video_header {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .site-header {
     width: 100%;
     position: fixed;
