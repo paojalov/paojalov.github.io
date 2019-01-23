@@ -1788,12 +1788,8 @@ h4.white {
     text-align: center;
 }
 
-.about-page-title {
-    background-image: url(../img/about-me-banner.png);
-}
-
-.contact-page-title {
-  background-image: url(../img/contact-banner.png);
+.page-title {
+    background-image: url(../img/pagetitle.jpg);
 }
 
 .home-page-title {
