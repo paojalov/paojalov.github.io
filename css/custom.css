@@ -9,3 +9,12 @@
 .contact-page-title {
   background-image: url(../img/contact-banner.png) !important;
 }
+
+.about-me-subtitle {
+  width: 80%;
+  margin-left: auto;
+}
+
+.home-about-img-overlay {
+  background: #f4f3f3;
+}
