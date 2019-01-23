@@ -13,9 +13,14 @@
 
 .about-me-subtitle {
   width: 80%;
-  margin-left: auto;
+  margin-left: 10%;
 }
 
 .home-about-img-overlay {
   background: #f4f3f3;
+}
+
+.about-img img {
+  padding-top: 85px !important;
+  padding-bottom: 20px !important;
 }
